@@ -1,0 +1,50 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# LightRAG runtime data
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Databases and Local Storage
+*.sqlite3
+*.db
+*.graphml
+*.json
+!package.json
+
+# Logs
+*.log
+nohup.out
+
+# AI & RAG specific
+.lightrag/
+nano_graphrag_cache*/
+LightRAG/
+
+# Testing & Type Checking
+.pytest_cache/
+.mypy_cache/
+htmlcov/
